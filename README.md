@@ -11,29 +11,35 @@ Este projeto React permite que os usuários insiram seus dados pessoais, como no
 ## Funcionalidades
 * **Cadastro de membros:** Permite adicionar novos membros à equipe, incluindo nome, cargo, foto e time.
 * **Visualização por equipe:** Organiza os membros em cards visuais, agrupados por equipe.
-* 
 
 ## Iniciando com Create React App
 
 Este projeto foi criado com o Create React App.
 
-### Scripts Disponíveis
+## Scripts Disponíveis
 
 No diretório do projeto, você pode executar os seguintes comandos:
 
-* **`npm start`**
-    * Inicia a aplicação no modo de desenvolvimento.
-    * Abra `http://localhost:3000` para visualizá-la no seu navegador.
-    * A página recarregará quando você fizer alterações.
-    * Você também pode ver quaisquer erros de lint no console.
+### Desenvolvimento
+* **`npm start`:** Inicia a aplicação no modo de desenvolvimento. Abra `http://localhost:3000` no seu navegador para visualizá-la. A página recarrega automaticamente a cada alteração.
 
-* **`npm test`**
-    * Inicia o executor de testes no modo de observação interativo. 
-    * Consulte a seção sobre executar testes para obter mais informações.
+### Testes
+* **`npm test`:** Executa os testes da aplicação. Consulte a documentação do Create React App para mais detalhes sobre como escrever e executar testes.
 
-* **`npm run build`**
-    * Compila a aplicação para produção na pasta `build`.
-    * Agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
-    * A compilação é minimizada e os nomes dos arquivos incluem os hashes.
-    * Seu aplicativo está pronto para ser implantado!
-    * Consulte a seção sobre implantação para obter mais informações.
+### Build para produção
+* **`npm run build`:** Cria uma versão otimizada da aplicação para produção na pasta `build`.
+
+### Personalização (Com Cuidado!)
+* **`npm run eject`:** **Atenção:** Essa ação é irreversível! Ao executar o `eject`, você assume o controle total sobre a configuração da sua aplicação. Isso significa que você será responsável por gerenciar ferramentas como webpack, Babel e ESLint. É recomendado apenas para desenvolvedores experientes que necessitam de configurações altamente personalizadas.
+
+   **O que o `eject` faz?**
+   * **Remoção da dependência:** A dependência única de build é removida do seu projeto.
+   * **Cópia de arquivos:** Todos os arquivos de configuração (webpack, Babel, ESLint, etc.) são copiados para o seu projeto.
+   * **Personalização:** Você terá total controle sobre as ferramentas e configurações de build.
+
+   **Quando usar o `eject`?**
+   * **Personalização avançada:** Se você precisa de configurações muito específicas que não são suportadas pelas configurações padrão.
+
+   **Quando evitar o `eject`?**
+   * **Projetos pequenos e médios:** As configurações padrão são suficientes para a maioria dos projetos.
+   * **Mantenabilidade:** Ao personalizar manualmente as configurações, você assume a responsabilidade pela manutenção e atualização dessas ferramentas.
